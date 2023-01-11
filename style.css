@@ -1,0 +1,55 @@
+html,
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: snow;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+div {
+    justify-content: center;
+    align-self: center;
+}
+
+h1 {
+    justify-content: center;
+    text-align: center;
+}
+
+#newtasktext {
+    width: 360px;
+    height: 48px;
+    text-align: center;
+    align-self: center;
+    font-size: 24px;
+}
+
+#addbutton {
+    width: 160px;
+    height: 36px;
+    align-self: center;
+    margin: 10px;
+    background-color: rgb(112, 70, 15);
+    color: ghostwhite;
+}
+
+#addbutton:hover {
+    background-color: rgb(92, 50, 0);
+}
+
+#addbutton:active {
+    transform: translateY(2px);
+    background-color: rgb(132, 90, 35);
+}
+
+#newtasks {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+
+.deletebutton {
+    background-color: firebrick;
+    color: ghostwhite;
+    margin-left: 10px;
+}
